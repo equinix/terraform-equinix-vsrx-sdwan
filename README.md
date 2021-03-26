@@ -33,6 +33,7 @@ will be used
 will be used
 * secondary device name will be same as primary with `-secondary` suffix added
 * secondary device notification list will be same as for primary
+* secondary device `ssh-key` will be same as for primary (if provided)
 
 ## Example usage
 
