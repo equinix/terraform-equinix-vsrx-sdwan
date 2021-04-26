@@ -5,7 +5,7 @@ provider "equinix" {
 
 module "vsrx-sdwan" {
   source               = "equinix/vsrx-sdwan/equinix"
-  version              = "1.0.0-beta"
+  version              = "1.0.0"
   name                 = "tf-vsrx-sdwan"
   hostname             = "vsrx-pri"
   metro_code           = var.metro_code_primary
